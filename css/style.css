@@ -1,0 +1,159 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #00ccfff4;
+    direction: ltr;
+}
+.container
+{
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #353637;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+header li
+{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: left;
+}
+header #brand h1
+{
+    margin: 0;
+    color: #32a0c2;
+}
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font: bold;
+}
+header a:hover
+{
+    color: #cccccc;
+    font-weight: bold;
+}
+#newsletter
+{
+    padding: 15px;
+    color: #ffffff;
+    background: #353637;
+}
+img.mylogo1
+{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 275px;
+    float: 50%;
+}
+#newsletter h1
+{
+    float: left;
+}
+#newsletter form
+{
+    float: right;
+    margin-top: 15px;
+}
+footer
+{
+background: #ff0000;
+    color: #110909;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #57adc7 5px solid;
+    text-size-adjust: 35px;
+}
+footer.a 
+{
+text-size-adjust: 25px;
+}
+div.a 
+{
+    text-align: center;
+}
+div.circle
+{
+    line-height: 80%;
+    list-style-type: circle;
+}
+div.wtf
+{
+    text-overflow: inherit;
+}
+div.end
+{
+    text-align: center;
+    float: inline-start;
+}
+div.text
+{
+    float: right;
+}
+table 
+{
+    border-width: 7px;
+    background-color: #2fcf64;
+}
+tr, td 
+{
+    padding: 5px;
+}
+  
+  .b1 {border-style:ridge;}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px
+    }
+    #newsletter .button
+    {
+        display:block;
+        width: 100%;
+    }
+    #newsletter form input(type="text")
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
